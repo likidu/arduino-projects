@@ -23,6 +23,7 @@ ROBOTSTXT_OBEY = True
 
 FEED_URI = u'./arduino-projects.csv'
 FEED_FORMAT = 'CSV'
+FEED_EXPORT_FIELDS = ["title", "views", "respects"]
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
